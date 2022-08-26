@@ -1,0 +1,23 @@
+            CURSO BACK END (tercera clase)
+            
+
+                  NOTA BENE
+ - los middleware son acciones q modifica el request y el respond 
+ 
+ - APP.USE es un middleware que se usa para atender a cualquier de tipo de peticion sin imprtar el metodo   
+
+ - diferencia entre el metodo filter y map:
+
+   a-el metodo filter nos permite crear un nuevo arreglo en base del arreglo q estamos aplicando el metodo , la longitud del nuevo arreglo va hacer menor o igual al arreglo inicial
+
+   -El método filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada
+   
+    (inmutable = el arreglo inicial no se modifica)
+
+   b-map nos permite tranformar los elementos de un arreglo. donde el metodo de map va tomar un arreglo de una cantitad exacta y nos va a devolver un nuevo arreglo con la misma cantidad pero con los elementos cambiados
+
+   -El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.
+   (inmutable) 
+
+   - LOS CONTROLADORES : es el manejo de todas las logicas de nuestros datos          
+
