@@ -32,7 +32,7 @@ const remove = (req,res) => {
     if(typeof id === "number"){
        const deleted = deleteUser(id)
        if(deleted){
-        res.status(204).json
+        res.status(204).json({})
 
        }else{
         res.status(400).json({message:"try with another id"})
